@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "stagedweapons",
+	"version": "${version}",
+	"name": "StagedWeapons",
+	"description": "Guns in Minecraft",
+	"authors": [
+		"MooseOnTheRocks",
+		"birdsdrib"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/stagedweapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.foltz.stagedweapons.StagedWeapons"
+		],
+		"client": [
+			"dev.foltz.stagedweapons.StagedWeaponsClient"
+		],
+		"fabric-datagen": [
+          "dev.foltz.stagedweapons.datagen.StagedWeaponsDataGenerator"
+		]
+	},
+	"mixins": [
+		"stagedweapons.mixins.json",
+		{
+			"config": "stagedweapons.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "stagedweapons.accessWidener",
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

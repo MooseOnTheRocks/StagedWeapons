@@ -1,0 +1,21 @@
+{
+  "item.stagedweapons.gun.pump_shotgun": "Pump Shotgun",
+  "item.stagedweapons.gun.revolver": "Revolver",
+  "item.stagedweapons.gun.flamethrower": "Flamethrower",
+  "item.stagedweapons.gun.eoka": "Eoka",
+  "item.stagedweapons.gun.flintlock_pistol": "Flintlock Pistol",
+
+  "item.stagedweapons.ammo.pistol": "Pistol Ammo",
+  "item.stagedweapons.ammo.pistol_dragon_breath": "Dragon's Breath Pistol Ammo",
+  "item.stagedweapons.ammo.shotgun": "Shotgun Ammo",
+  "item.stagedweapons.ammo.shotgun_bouncy": "Bouncy Shotgun Ammo",
+  "item.stagedweapons.ammo.shotgun_dragon_breath": "Dragon's Breath Shotgun Ammo",
+  "item.stagedweapons.ammo.flamethrower": "Flamethrower Ammo",
+
+  "itemGroup.stagedweapons.main_group": "Staged Weapons",
+
+  "enchantment.stagedweapons.quick_action": "Quick Action",
+  "enchantment.stagedweapons.quick_fire": "Quick Fire",
+  "enchantment.stagedweapons.quick_reload": "Quick Reload",
+  "enchantment.stagedweapons.quick_aim": "Quick Aim"
+}

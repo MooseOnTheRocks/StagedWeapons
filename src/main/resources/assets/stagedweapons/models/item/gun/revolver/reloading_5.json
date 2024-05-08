@@ -1,0 +1,6 @@
+{
+  "parent": "stagedweapons:item/gun/gun_flat_parent",
+  "textures": {
+    "layer0": "stagedweapons:item/gun/revolver/reloading_5"
+  }
+}

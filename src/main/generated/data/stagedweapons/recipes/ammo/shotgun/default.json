@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "x": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "cxc",
+    "cxc",
+    "igi"
+  ],
+  "result": {
+    "count": 2,
+    "item": "stagedweapons:ammo/shotgun/default"
+  }
+}

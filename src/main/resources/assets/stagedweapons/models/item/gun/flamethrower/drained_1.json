@@ -1,0 +1,6 @@
+{
+  "parent": "stagedweapons:item/gun/gun_parent",
+  "textures": {
+    "layer0": "stagedweapons:item/gun/flamethrower/drained_1"
+  }
+}

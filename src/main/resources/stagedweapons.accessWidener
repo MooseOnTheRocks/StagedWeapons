@@ -1,0 +1,4 @@
+accessWidener v1 named
+accessible field net/minecraft/item/Item translationKey Ljava/lang/String;
+accessible class net/minecraft/client/render/item/HeldItemRenderer$HandRenderType
+accessible field net/minecraft/entity/mob/MobEntity goalSelector Lnet/minecraft/entity/ai/goal/GoalSelector;

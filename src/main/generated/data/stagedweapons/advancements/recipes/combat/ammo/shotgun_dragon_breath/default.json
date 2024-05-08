@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ammo/shotgun/default": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stagedweapons:ammo/shotgun/default"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blaze_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stagedweapons:ammo/shotgun_dragon_breath/default"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blaze_powder",
+      "has_ammo/shotgun/default"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stagedweapons:ammo/shotgun_dragon_breath/default"
+    ]
+  }
+}

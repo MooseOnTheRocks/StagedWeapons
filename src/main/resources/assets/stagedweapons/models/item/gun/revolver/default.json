@@ -1,0 +1,44 @@
+{
+  "parent": "stagedweapons:item/gun/gun_flat_parent",
+  "textures": {
+    "layer0": "stagedweapons:item/gun/revolver/default"
+  },
+  "overrides": [
+    { "predicate": { "usage_stage": 0.33, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/revolver/cocking_0" },
+    { "predicate": { "usage_stage": 0.67, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/revolver/cocking_1" },
+    { "predicate": { "usage_stage": 1.0, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/revolver/cocked" },
+
+    { "predicate": { "usage_stage": 0.0, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_0" },
+    { "predicate": { "usage_stage": 0.043478260869565216, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_1" },
+    { "predicate": { "usage_stage": 0.08695652173913043, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_2" },
+    { "predicate": { "usage_stage": 0.13043478260869565, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_3" },
+    { "predicate": { "usage_stage": 0.17391304347826086, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_4" },
+    { "predicate": { "usage_stage": 0.21739130434782608, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_5" },
+    { "predicate": { "usage_stage": 0.2608695652173913, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_6" },
+    { "predicate": { "usage_stage": 0.30434782608695654, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_7" },
+    { "predicate": { "usage_stage": 0.34782608695652173, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_8" },
+    { "predicate": { "usage_stage": 0.391304347826087, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_9" },
+    { "predicate": { "usage_stage": 0.43478260869565216, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_10" },
+    { "predicate": { "usage_stage": 0.4782608695652174, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_11" },
+    { "predicate": { "usage_stage": 0.5217391304347826, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_12" },
+    { "predicate": { "usage_stage": 0.5652173913043478, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_13" },
+    { "predicate": { "usage_stage": 0.6086956521739131, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_14" },
+    { "predicate": { "usage_stage": 0.6521739130434783, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_15" },
+    { "predicate": { "usage_stage": 0.6956521739130435, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_16" },
+    { "predicate": { "usage_stage": 0.7391304347826086, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_17" },
+    { "predicate": { "usage_stage": 0.782608695652174, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_18" },
+    { "predicate": { "usage_stage": 0.8260869565217391, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_19" },
+    { "predicate": { "usage_stage": 0.8695652173913043, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_20" },
+    { "predicate": { "usage_stage": 0.9130434782608695, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_21" },
+    { "predicate": { "usage_stage": 0.9565217391304348, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_22" },
+    { "predicate": { "usage_stage": 1.0, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/revolver/reloading_23" },
+
+
+
+    { "predicate": { "is_cocked": 1.0}, "model": "stagedweapons:item/gun/revolver/cocked" },
+
+    { "predicate": { "usage_stage": 0.0, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/revolver/firing" },
+
+    { "predicate": { "is_broken": 1.0 }, "model": "stagedweapons:item/gun/revolver/broken" }
+  ]
+}

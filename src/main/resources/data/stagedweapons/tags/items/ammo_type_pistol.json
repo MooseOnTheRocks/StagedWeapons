@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "stagedweapons:ammo/pistol/default",
+    "stagedweapons:ammo/pistol_dragon_breath/default"
+  ]
+}

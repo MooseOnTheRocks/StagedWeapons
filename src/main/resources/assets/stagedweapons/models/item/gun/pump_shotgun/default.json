@@ -1,0 +1,28 @@
+{
+  "parent": "stagedweapons:item/gun/gun_parent",
+  "textures": {
+    "layer0": "stagedweapons:item/gun/pump_shotgun/default"
+  },
+  "overrides": [
+    { "predicate": { "usage_stage": 0.0, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_0" },
+    { "predicate": { "usage_stage": 0.07692307692307693, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_1" },
+    { "predicate": { "usage_stage": 0.15384615384615385, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_2" },
+    { "predicate": { "usage_stage": 0.23076923076923078, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_0" },
+    { "predicate": { "usage_stage": 0.3076923076923077, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_1" },
+    { "predicate": { "usage_stage": 0.46153846153846156, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_2" },
+    { "predicate": { "usage_stage": 0.5384615384615384, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_0" },
+    { "predicate": { "usage_stage": 0.5833333333333334, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_1" },
+    { "predicate": { "usage_stage": 0.6153846153846154, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_2" },
+    { "predicate": { "usage_stage": 0.6923076923076923, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_0" },
+    { "predicate": { "usage_stage": 0.7692307692307693, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_1" },
+    { "predicate": { "usage_stage": 0.8461538461538461, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_2" },
+    { "predicate": { "usage_stage": 0.9230769230769231, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/reloading_0" },
+
+    { "predicate": { "usage_stage": 0.0, "is_pumping": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/pumped" },
+    { "predicate": { "usage_stage": 0.0, "is_pumped": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/default" },
+
+    { "predicate": { "usage_stage": 0.0, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/default" },
+
+    { "predicate": { "is_broken": 1.0 }, "model": "stagedweapons:item/gun/pump_shotgun/broken" }
+  ]
+}

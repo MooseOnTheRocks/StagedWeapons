@@ -1,0 +1,28 @@
+{
+  "parent": "stagedweapons:item/gun/gun_flat_parent",
+  "textures": {
+    "layer0": "stagedweapons:item/gun/flintlock_pistol/default"
+  },
+  "overrides": [
+    { "predicate": { "usage_stage": 0.0, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/default" },
+    { "predicate": { "usage_stage": 0.25, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/cocking_0" },
+    { "predicate": { "usage_stage": 0.50, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/cocking_1" },
+    { "predicate": { "usage_stage": 0.75, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/cocking_2" },
+    { "predicate": { "usage_stage": 1.0, "is_cocking": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/cocked" },
+
+    { "predicate": { "usage_stage": 0.0, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/default"},
+    { "predicate": { "usage_stage": 0.3, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/reloading_0"},
+    { "predicate": { "usage_stage": 0.7, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/reloading_1"},
+
+    { "predicate": { "is_cocked": 1.0}, "model": "stagedweapons:item/gun/flintlock_pistol/cocked" },
+
+    { "predicate": { "usage_stage": 0.0, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/default" },
+    { "predicate": { "usage_stage": 0.1, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/firing_0" },
+    { "predicate": { "usage_stage": 0.2, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/firing_1" },
+    { "predicate": { "usage_stage": 0.4, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/firing_2" },
+    { "predicate": { "usage_stage": 0.6, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/firing_3" },
+    { "predicate": { "usage_stage": 0.8, "is_firing": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/firing_4" },
+
+    { "predicate": { "is_broken": 1.0 }, "model": "stagedweapons:item/gun/flintlock_pistol/broken" }
+  ]
+}

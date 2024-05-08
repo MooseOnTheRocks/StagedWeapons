@@ -1,0 +1,14 @@
+{
+  "parent": "stagedweapons:item/gun/gun_flat_parent",
+  "textures": {
+    "layer0": "stagedweapons:item/gun/eoka/default"
+  },
+  "overrides": [
+    { "predicate": { "usage_stage": 0, "is_reloading": 1.0 }, "model": "stagedweapons:item/gun/eoka/reloading" },
+
+    { "predicate": { "usage_stage": 0, "is_striking": 1.0 }, "model": "stagedweapons:item/gun/eoka/striking_0" },
+    { "predicate": { "usage_stage": 0.5, "is_striking": 1.0 }, "model": "stagedweapons:item/gun/eoka/striking_1" },
+
+    { "predicate": { "is_broken": 1.0 }, "model": "stagedweapons:item/gun/eoka/broken" }
+  ]
+}

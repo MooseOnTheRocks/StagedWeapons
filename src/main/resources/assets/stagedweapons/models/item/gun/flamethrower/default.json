@@ -1,0 +1,16 @@
+{
+  "parent": "stagedweapons:item/gun/gun_parent",
+  "textures": {
+    "layer0": "stagedweapons:item/gun/flamethrower/drained_0"
+  },
+  "overrides": [
+    { "predicate": { "ammo_stage": 0.0 }, "model": "stagedweapons:item/gun/flamethrower/drained_5" },
+    { "predicate": { "ammo_stage": 0.166 }, "model": "stagedweapons:item/gun/flamethrower/drained_4" },
+    { "predicate": { "ammo_stage": 0.333 }, "model": "stagedweapons:item/gun/flamethrower/drained_3" },
+    { "predicate": { "ammo_stage": 0.5 }, "model": "stagedweapons:item/gun/flamethrower/drained_2" },
+    { "predicate": { "ammo_stage": 0.667 }, "model": "stagedweapons:item/gun/flamethrower/drained_1" },
+    { "predicate": { "ammo_stage": 0.833 }, "model": "stagedweapons:item/gun/flamethrower/drained_0" },
+
+    { "predicate": { "is_broken": 1.0 }, "model": "stagedweapons:item/gun/flamethrower/broken" }
+  ]
+}

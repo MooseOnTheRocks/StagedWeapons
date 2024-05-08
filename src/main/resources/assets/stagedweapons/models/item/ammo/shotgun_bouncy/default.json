@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "overrides": [
+    { "predicate": { "stack_count": 0.0 }, "model": "stagedweapons:item/ammo/shotgun_bouncy/single" },
+    { "predicate": { "stack_count": 0.125 }, "model": "stagedweapons:item/ammo/shotgun_bouncy/some" },
+    { "predicate": { "stack_count": 0.5 }, "model": "stagedweapons:item/ammo/shotgun_bouncy/many" }
+  ]
+}

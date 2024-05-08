@@ -1,0 +1,15 @@
+{
+  "parent": "item/generated",
+  "overrides": [
+    { "predicate": { "stack_count": 0.0 }, "model": "stagedweapons:item/ammo/flamethrower/stage_0" },
+    { "predicate": { "stack_count": 0.1 }, "model": "stagedweapons:item/ammo/flamethrower/stage_1" },
+    { "predicate": { "stack_count": 0.2 }, "model": "stagedweapons:item/ammo/flamethrower/stage_2" },
+    { "predicate": { "stack_count": 0.3 }, "model": "stagedweapons:item/ammo/flamethrower/stage_3" },
+    { "predicate": { "stack_count": 0.4 }, "model": "stagedweapons:item/ammo/flamethrower/stage_4" },
+    { "predicate": { "stack_count": 0.5 }, "model": "stagedweapons:item/ammo/flamethrower/stage_5" },
+    { "predicate": { "stack_count": 0.6 }, "model": "stagedweapons:item/ammo/flamethrower/stage_6" },
+    { "predicate": { "stack_count": 0.7 }, "model": "stagedweapons:item/ammo/flamethrower/stage_7" },
+    { "predicate": { "stack_count": 0.8 }, "model": "stagedweapons:item/ammo/flamethrower/stage_8" },
+    { "predicate": { "stack_count": 0.9 }, "model": "stagedweapons:item/ammo/flamethrower/stage_9" }
+  ]
+}
